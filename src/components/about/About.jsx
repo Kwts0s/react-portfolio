@@ -8,45 +8,45 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+    <h5>Get to Know</h5>
+    <h2>About Me</h2>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-              <img src={ME} alt="About Image" />
-            </div>
-        </div>
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon"/>
-              <h5>Projects</h5>
-              <small>3+ Years Working</small>
-            </article>
-
+    <div className="container about__container">
+      <div className="about__me">
+        <div className="about__me-image">
+            <img src={ME} alt="About Image" />
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente quibusdam quisquam itaque, ut illum vel cupiditate soluta, enim, possimus nobis beatae! Accusantium dolorem, porro nobis facilis blanditiis eligendi quidem.
+      </div>
+      <div className="about__content">
+        <div className="about__cards">
+          <article className="about__card">
+            <FaAward className="about__icon"/>
+            <h5>Experience</h5>
+            <small>3+ Years Working</small>
+          </article>
 
-          </p>
+          <article className="about__card">
+            <FiUsers className="about__icon"/>
+            <h5>Clients</h5>
+            <small>200+ Worldwide</small>
+          </article>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <article className="about__card">
+            <VscFolderLibrary className="about__icon"/>
+            <h5>Projects</h5>
+            <small>3+ Years Working</small>
+          </article>
 
         </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente quibusdam quisquam itaque, ut illum vel cupiditate soluta, enim, possimus nobis beatae! Accusantium dolorem, porro nobis facilis blanditiis eligendi quidem.
+
+        </p>
+
+        <a href="#contact" className="btn btn-primary">Let's Talk</a>
+
       </div>
-    </section>
+    </div>
+  </section>
   )
 }
 
