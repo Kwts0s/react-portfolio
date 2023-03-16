@@ -7,6 +7,52 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
+const data = [
+  {
+    id:1,
+    image: IMG1,
+    title:'Crypto Dashboard',
+    github:'https://github.com/Kwts0s',
+    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+  },
+  {
+    id:2,
+    image: IMG2,
+    title:'Charts Figma',
+    github:'https://github.com/Kwts0s',
+    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+  },
+  {
+    id:3,
+    image: IMG3,
+    title:'Dashboard UI',
+    github:'https://github.com/Kwts0s',
+    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+  },
+  {
+    id:4,
+    image: IMG4,
+    title:'Data design',
+    github:'https://github.com/Kwts0s',
+    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+  },
+  {
+    id:5,
+    image: IMG5,
+    title:'Python Scripts',
+    github:'https://github.com/Kwts0s',
+    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+  },
+  {
+    id:6,
+    image: IMG6,
+    title:'PWA Templates',
+    github:'https://github.com/Kwts0s',
+    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+  }
+]
+
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -15,83 +61,24 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
 
-        {/* Portfolio Item 1 */}
+        {/* Portfolio Item  */}
 
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>Portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Kwts0s/WeatherAppV2.git" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/Kwts0s" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        {/* Portfolio Item 2 */}
-
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Kwts0s/WeatherAppV2.git" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/Kwts0s" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        {/* Portfolio Item 3 */}
-
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Kwts0s/WeatherAppV2.git" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/Kwts0s" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        {/* Portfolio Item 4 */}
-
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Kwts0s/WeatherAppV2.git" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/Kwts0s" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        {/* Portfolio Item 5 */}
-
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Kwts0s/WeatherAppV2.git" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/Kwts0s" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        {/* Portfolio Item 6 */}
-
-        <article className='portfolio_item'>
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>Portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Kwts0s/WeatherAppV2.git" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/Kwts0s" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
+        {
+          data.map(({id,image,title,github,demo}) => {
+            return (
+              <article key={id} className='portfolio_item'>
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+              <a href={github} className='btn' target='_blank'>Github</a>
+              <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+              </div>
+            </article>
+            )
+          })
+        }
 
       </div>
     </section>
