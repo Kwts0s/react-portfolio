@@ -22,24 +22,23 @@ const About = () => {
           <article className="about__card">
             <FaAward className="about__icon"/>
             <h5>Experience</h5>
-            <small>3+ Years Working</small>
+            <small>2+ Years Working</small>
           </article>
 
           <article className="about__card">
             <FiUsers className="about__icon"/>
-            <h5>Clients</h5>
-            <small>200+ Worldwide</small>
+            <h5>Studies</h5>
+            <small>3+ Years Studying</small>
           </article>
 
           <article className="about__card">
             <VscFolderLibrary className="about__icon"/>
             <h5>Projects</h5>
-            <small>3+ Years Working</small>
+            <small>10+ </small>
           </article>
 
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente quibusdam quisquam itaque, ut illum vel cupiditate soluta, enim, possimus nobis beatae! Accusantium dolorem, porro nobis facilis blanditiis eligendi quidem.
-
+        <p>Web developer with a demonstrated history of working in the Computer Science industry. Detail-oriented individual with an agile mindset and teamwork spirit. Passionate about learning new technologies and growing professionally.
         </p>
 
         <a href="#contact" className="btn btn-primary">Let's Talk</a>
