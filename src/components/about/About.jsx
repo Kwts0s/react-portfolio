@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {FaGraduationCap} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
           </article>
 
           <article className="about__card">
-            <FiUsers className="about__icon"/>
+            <FaGraduationCap className="about__icon"/>
             <h5>Studies</h5>
             <small>3+ Years Studying</small>
           </article>
@@ -34,7 +34,7 @@ const About = () => {
           <article className="about__card">
             <VscFolderLibrary className="about__icon"/>
             <h5>Projects</h5>
-            <small>10+ </small>
+            <small>10+  </small>
           </article>
 
         </div>
