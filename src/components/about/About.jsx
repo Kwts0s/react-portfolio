@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import {FaGraduationCap} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -38,8 +38,9 @@ const About = () => {
           </article>
 
         </div>
-        <p>Web developer with a demonstrated history of working in the Computer Science industry. Detail-oriented individual with an agile mindset and teamwork spirit. Passionate about learning new technologies and growing professionally.
+        <p>Web developer with a demonstrated history of working in the Computer Science industry.Detail-oriented individual with an agile mindset and teamwork spirit.Passionate about learning new technologies and growing professionally.
         </p>
+       
 
         <a href="#contact" className="btn btn-primary">Let's Talk</a>
 

@@ -13,17 +13,22 @@ const Services = () => {
             <h3>UI/UX Design</h3>
           </div>
           <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Graphic Design</p>
-            </li>
+            
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Website Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Brand Guide</p>
+              <p>Branding and Identity Design</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Usability testing</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>User interface evaluation and optimization</p>
             </li>
           </ul>
         </article>
@@ -37,31 +42,37 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Web Hosting</p>
+              <p>Full-Stack development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Responsive Design</p>
             </li>
+          
+            
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Web Design</p>
+              <p>WordPress</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Web Site Maintenance</p>
+              <p>E-Commerce</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Content Management System</p>
+              <p>Web Hosting and Server Management</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Online Ordering System</p>
+              <p>Web Security Maintenance</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>API Integration</p>
+              <p>Third-party Services and API Integrations</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Technical Support and Training</p>
             </li>
           </ul>
         </article>
@@ -73,25 +84,31 @@ const Services = () => {
             <h3>Content Creation</h3>
           </div>
           <ul className='service__list'>
+          <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Website content creation and management</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Video Creation and Editing</p>
+            </li>
+            
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Copywriting </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Graphic Design</p>
+            </li>
+          
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Social Media content creation </p>
+            </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Content strategy</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Product Video</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Logo</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Banners</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Posts,Stories,Reels</p>
             </li>
           </ul>
         </article>
