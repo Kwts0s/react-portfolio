@@ -1,55 +1,49 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/portfolio3.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio1.png'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+
 
 const data = [
   {
     id:1,
     image: IMG1,
-    title:'Crypto Dashboard',
-    github:'https://github.com/Kwts0s',
-    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+    title:'Villa Galliaki - WordPress',
+    github:'https://github.com/Kwts0s/VillaGalliaki',
+    demo:'https://villagalliaki.gr/'
   },
   {
     id:2,
     image: IMG2,
-    title:'Charts Figma',
-    github:'https://github.com/Kwts0s',
-    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+    title:'PASPA - WordPress',
+    github:'https://github.com/Kwts0s/PASPA',
+    demo:'https://jovial-jones.185-138-42-173.plesk.page/'
   },
   {
     id:3,
     image: IMG3,
-    title:'Dashboard UI',
-    github:'https://github.com/Kwts0s',
-    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+    title:'WeatherApp - JavaScript',
+    github:'https://github.com/Kwts0s/WeatherApp',
+    demo:'https://main.d1tv3ngeyoewhl.amplifyapp.com/'
   },
   {
     id:4,
     image: IMG4,
-    title:'Data design',
-    github:'https://github.com/Kwts0s',
-    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+    title:'WeatherApp V2 - JavaScript',
+    github:'https://github.com/Kwts0s/WeatherAppV2',
+    demo:'https://master.d3t8luivt11lk3.amplifyapp.com/'
   },
   {
     id:5,
     image: IMG5,
-    title:'Python Scripts',
-    github:'https://github.com/Kwts0s',
-    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
+    title:'Mobile Shopee - PHP',
+    github:'https://github.com/Kwts0s/Shopee',
+    demo:'https://beautiful-mayer.185-138-42-185.plesk.page/'
   },
-  {
-    id:6,
-    image: IMG6,
-    title:'PWA Templates',
-    github:'https://github.com/Kwts0s',
-    demo:'https://github.com/Kwts0s/WeatherAppV2.git'
-  }
+  
 ]
 
 
