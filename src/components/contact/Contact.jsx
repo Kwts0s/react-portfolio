@@ -45,12 +45,12 @@ const Contact = () => {
             <a href="https://m.me/kostas.gall" target="_blank">Send A Message</a>
           </article>
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+30 6944213449</h5>
             <a href=" https://wa.me/306944213449" target="_blank">Send A Message</a>
-          </article>
+          </article> */}
 
         </div>
         {/* End Of Contact Options */}
