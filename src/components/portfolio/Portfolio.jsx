@@ -5,6 +5,8 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio1.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/portfolio7.png'
 
 
 const data = [
@@ -14,6 +16,13 @@ const data = [
     title:'Villa Galliaki - WordPress',
     github:'https://github.com/Kwts0s/VillaGalliaki',
     demo:'https://villagalliaki.gr/'
+  },
+  {
+    id:7,
+    image: IMG7,
+    title:'Spotify Clone - NextJS',
+    github:'https://github.com/Kwts0s/spotify-clone',
+    demo:'https://master.d1emjuwnibv1wu.amplifyapp.com/'
   },
   {
     id:2,
@@ -42,6 +51,13 @@ const data = [
     title:'Mobile Shopee - PHP',
     github:'https://github.com/Kwts0s/Shopee',
     demo:'https://beautiful-mayer.185-138-42-185.plesk.page/'
+  },
+  {
+    id:6,
+    image: IMG6,
+    title:'BlueBliss - WordPress',
+    github:'https://github.com/Kwts0s/BlueBliss',
+    demo:'https://interesting-lalande.185-138-42-185.plesk.page/'
   },
   
 ]
