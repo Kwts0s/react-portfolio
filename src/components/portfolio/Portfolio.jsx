@@ -7,9 +7,17 @@ import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
 import IMG7 from '../../assets/portfolio7.png'
+import IMG8 from '../../assets/portfolio8.png'
 
 
 const data = [
+  {
+    id:6,
+    image: IMG6,
+    title:'BlueBliss - WordPress',
+    github:'https://github.com/Kwts0s/BlueBliss',
+    demo:'https://blue-bliss.gr/'
+  },
   {
     id:1,
     image: IMG1,
@@ -18,11 +26,11 @@ const data = [
     demo:'https://villagalliaki.gr/'
   },
   {
-    id:7,
-    image: IMG7,
-    title:'Spotify Clone - NextJS',
-    github:'https://github.com/Kwts0s/spotify-clone',
-    demo:'https://master.d1emjuwnibv1wu.amplifyapp.com/'
+    id:8,
+    image: IMG8,
+    title:'Map-BlueBliss - JavaScript, Mapbox GL JS',
+    github:'https://github.com/Kwts0s/Map_BlueBliss',
+    demo:'https://map.blue-bliss.gr/'
   },
   {
     id:2,
@@ -53,12 +61,13 @@ const data = [
     demo:'https://beautiful-mayer.185-138-42-185.plesk.page/'
   },
   {
-    id:6,
-    image: IMG6,
-    title:'BlueBliss - WordPress',
-    github:'https://github.com/Kwts0s/BlueBliss',
-    demo:'https://interesting-lalande.185-138-42-185.plesk.page/'
-  },
+    id:7,
+    image: IMG7,
+    title:'Spotify Clone - NextJS',
+    github:'https://github.com/Kwts0s/spotify-clone',
+    demo:'https://master.d1emjuwnibv1wu.amplifyapp.com/'
+  }
+  
   
 ]
 
