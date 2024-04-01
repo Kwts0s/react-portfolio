@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_yae1xxa', 'template_mhvcrmb', form.current, 'mLZAJwCP9sxwzrEce')
+    emailjs.sendForm('service_t8gipej', 'template_ph0smok', form.current, 'yZUs8aO49qKj5rcuZ')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -26,31 +26,24 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      {/* <h5>Get In Touch</h5> */}
+      <h2>Get In Touch</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>kostas.galliakis@me.com</h5>
-            <a href="mailto:kostas.galliakis@me.com" target="_blank">Send A Message</a>
+            <h5>info.kgalliakis@gmail.com</h5>
+            <a href="mailto:info.kgalliakis@gmail.com" target="_blank">Send A Message</a>
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Kostas Galliakis</h5>
-            <a href="https://m.me/kostas.gall" target="_blank">Send A Message</a>
+            <BsLinkedin className='contact__option-icon'/>
+            <h4>LinkedIn</h4>
+            <h5>Konstantinos Galliakis</h5>
+            <a href="https://www.linkedin.com/in/konstantinos-galliakis-243061210/" target="_blank">Send A Message</a>
           </article>
-
-          {/* <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+30 6944213449</h5>
-            <a href=" https://wa.me/306944213449" target="_blank">Send A Message</a>
-          </article> */}
 
         </div>
         {/* End Of Contact Options */}

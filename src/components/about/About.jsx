@@ -8,7 +8,7 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id="about">
-    <h5>Get to Know</h5>
+    {/* <h5>Get to Know</h5> */}
     <h2>About Me</h2>
 
     <div className="container about__container">
@@ -38,7 +38,7 @@ const About = () => {
           </article>
 
         </div>
-        <p>Web developer with a demonstrated history of working in the Computer Science industry.Detail-oriented individual with an agile mindset and teamwork spirit.Passionate about learning new technologies and growing professionally.
+        <p>Web developer with a demonstrated history of working in the Computer Science industry. Detail-oriented individual with an agile mindset and teamwork spirit. Passionate about learning new technologies and growing professionally.
         </p>
        
 

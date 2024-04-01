@@ -8,6 +8,8 @@ import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
+import IMG9 from '../../assets/portfolio9.png'
+import IMG10 from '../../assets/portfolio10.png'
 
 
 const data = [
@@ -19,18 +21,32 @@ const data = [
     demo:'https://blue-bliss.gr/'
   },
   {
+    id:9,
+    image: IMG9,
+    title:'CozyCreations - WordPress',
+    github:'https://github.com/Kwts0s/',
+    demo:'https://cozy-creations.gr/'
+  },
+  {
+    id:8,
+    image: IMG8,
+    title:'Map_BlueBliss - JavaScript, Mapbox',
+    github:'https://github.com/Kwts0s/Map_BlueBliss',
+    demo:'https://map.blue-bliss.gr/'
+  },
+  {
+    id:7,
+    image: IMG7,
+    title:'Spotify Clone - Next.js',
+    github:'https://github.com/Kwts0s/spotify-clone',
+    demo:'https://master.d1emjuwnibv1wu.amplifyapp.com/'
+  },
+  {
     id:1,
     image: IMG1,
     title:'Villa Galliaki - WordPress',
     github:'https://github.com/Kwts0s/VillaGalliaki',
     demo:'https://villagalliaki.gr/'
-  },
-  {
-    id:8,
-    image: IMG8,
-    title:'Map-BlueBliss - JavaScript, Mapbox GL JS',
-    github:'https://github.com/Kwts0s/Map_BlueBliss',
-    demo:'https://map.blue-bliss.gr/'
   },
   {
     id:2,
@@ -61,11 +77,11 @@ const data = [
     demo:'https://beautiful-mayer.185-138-42-185.plesk.page/'
   },
   {
-    id:7,
-    image: IMG7,
-    title:'Spotify Clone - NextJS',
-    github:'https://github.com/Kwts0s/spotify-clone',
-    demo:'https://master.d1emjuwnibv1wu.amplifyapp.com/'
+    id:10,
+    image: IMG10,
+    title:'Chart - react.js',
+    github:'https://github.com/Kwts0s/react-chart',
+    demo:'https://github.com/Kwts0s/react-chart'
   }
   
   
@@ -75,7 +91,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      {/* <h5>My Recent Work</h5> */}
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
