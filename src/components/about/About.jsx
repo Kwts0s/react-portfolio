@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import {FaGraduationCap} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -12,11 +11,7 @@ const About = () => {
     <h2>About Me</h2>
 
     <div className="container about__container">
-      <div className="about__me">
-        <div className="about__me-image">
-            <img src={ME} alt="About Image" />
-          </div>
-      </div>
+      
       <div className="about__content">
         <div className="about__cards">
           <article className="about__card">
@@ -38,7 +33,7 @@ const About = () => {
           </article>
 
         </div>
-        <p>Web developer with a demonstrated history of working in the Computer Science industry. Detail-oriented individual with an agile mindset and teamwork spirit. Passionate about learning new technologies and growing professionally.
+        <p>Web developer with a background in computer science, focused on creating thoughtful solutions. I enjoy collaborating, learning new technologies, and growing as a professional.
         </p>
        
 
