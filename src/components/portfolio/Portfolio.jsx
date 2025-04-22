@@ -31,7 +31,7 @@ const data = [
   {
     id:4,
     image: bb_map,
-    title:'BlueBliss Map - JavaScript, Mapbox',
+    title:'BlueBliss Map - React',
     github:'https://github.com/Kwts0s/blueblissmap',
     demo:'https://map.blue-bliss.gr/'
   },
